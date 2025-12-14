@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    h1 {
+       text-align: center;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-style:oblique;
+       font-size:xx-large;
+       font-weight: 400;
+    }
+    h2 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      font-style: italic;
+    }
+    <div style ="
+    width: 220px;
+    background: blue;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    <img src="phone.jpg" alt="Phone"
+        style="width:100px; height:auto; margin-bottom:10px;">
+
+    <h3 style="margin:10px 0; color: red;">Phone</h3>
+
+    <p style="font-size:14px; color: white;">
+        A high-end smartphone with advanced features.
+    </p>
+
+    <p style="font-weight:bold; margin:10px 0;">$400</p>
+
+    <button onclick="addToCart('Phone',400)">
+        style="
+        background: grey;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        Add to Cart 🛒
+    </button>
+</div>
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadget Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="index.html"><h1>Gadget Hub</h1></a></div>
+      <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="sign-up.html" id="auth-link">sign-up</a>
+        <a href="login.html" id="auth-link">Login</a>
+        <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+  <h2>Smart Gadgets for smart living</h2>
+   <div class="search-container">
+    <input type="text" placeholder="search products">
+  </div>
+ 
+  <div class="product-container" id="product-container">
+    <na>
+  </div>
+ 
+</nav>
+ <!-- products will be generated here -->
+
+  <script src="script.js"></script>
+</body>
+</html>
